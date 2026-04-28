@@ -1,6 +1,8 @@
 import { Component } from 'react';
 
 class ScrollBox extends Component {
+  // 순서2
+  // 맨밑으로 이동하는 함수.
   scrollToBottom = () => {
     const { scrollHeight, clientHeight } = this.box;
     this.box.scrollTop = scrollHeight - clientHeight;
@@ -15,6 +17,7 @@ class ScrollBox extends Component {
           width: '300px',
           overflow: 'auto',
         }}
+        // 순서1
         ref={(ref) => {
           this.box = ref;
         }}
