@@ -5,6 +5,7 @@ import Ex2 from './Ex2';
 import Info from './Info';
 import Ex3 from './Ex3';
 import Ex4 from './Ex4';
+import Counter2 from './Counter2';
 
 const App = () => {
   //Ex4 에서, 언마운트 효과 내기를 위한 상태 추가.
@@ -52,6 +53,9 @@ const App = () => {
       </button>
       <hr />
       {isShowing && <Ex4 />}
+      <br />
+      <h2>useReducer 기본 예시 연습</h2>
+      <Counter2 />
     </div>
   );
 };
