@@ -17,6 +17,7 @@ import Ex9 from './Ex9';
 import Ex10 from './Ex10';
 import Info2 from './Info2';
 import Ex11 from './Ex11';
+import Ex12 from './Ex12';
 
 const App = () => {
   //Ex4 에서, 언마운트 효과 내기를 위한 상태 추가.
@@ -139,6 +140,16 @@ const App = () => {
         반환해야 합니다.
       </p>
       <Ex11></Ex11>
+      <br />
+      <h3>실습12 </h3>
+      <p>
+        `useLocalStorage` 커스텀 Hook을 만드세요. `useState`처럼 사용하지만 값이
+        localStorage에도 저장되어 페이지 새로고침 후에도 유지되어야 합니다.
+        힌트) 1. localStorage.setItem(key, JSON.stringify(value));
+        로컬스토리지에 저장하기. 2. const item = localStorage.getItem(key); :
+        로컬스토리지에 가져오기.
+      </p>
+      <Ex12></Ex12>
       <br />
     </div>
   );

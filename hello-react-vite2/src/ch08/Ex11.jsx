@@ -6,7 +6,7 @@ const Ex11 = () => {
 
   return (
     <div>
-      <p>현재 상태 : {isOn ? 'On ' : 'OFF'}</p>
+      <p>현재 상태 : {isOn ? 'On 🟢' : 'OFF 🔴'}</p>
       <button onClick={toggle}>토글</button>
     </div>
   );
