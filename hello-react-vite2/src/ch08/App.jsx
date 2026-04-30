@@ -15,6 +15,8 @@ import Ex8 from './Ex8';
 import Average3 from './Average3';
 import Ex9 from './Ex9';
 import Ex10 from './Ex10';
+import Info2 from './Info2';
+import Ex11 from './Ex11';
 
 const App = () => {
   //Ex4 에서, 언마운트 효과 내기를 위한 상태 추가.
@@ -126,6 +128,17 @@ const App = () => {
         합니다. Average3 ,참고
       </p>
       <Ex10></Ex10>
+      <br />
+      <h2>커스텀 훅스, 우리가 만든 함수 이름 : useInputs 기본 예시 연습</h2>
+      <Info2></Info2>
+      <br />
+      <hr />
+      <h3>실습11 </h3>
+      <p>
+        useToggle 커스텀 Hook을 만드세요. boolean 값과 값을 토글하는 함수를
+        반환해야 합니다.
+      </p>
+      <Ex11></Ex11>
       <br />
     </div>
   );
