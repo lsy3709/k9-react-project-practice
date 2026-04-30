@@ -9,6 +9,7 @@ import Counter2 from './Counter2';
 import Ex5 from './Ex5';
 import Ex6 from './Ex6';
 import Average from './Average';
+import Ex7 from './Ex7';
 
 const App = () => {
   //Ex4 에서, 언마운트 효과 내기를 위한 상태 추가.
@@ -78,6 +79,15 @@ const App = () => {
       <br />
       <h2>useMemo 기본 예시 연습</h2>
       <Average></Average>
+      <br />
+      <hr />
+      <h3>실습7 </h3>
+      <p>
+        숫자 목록의 최댓값을 useMemo로 계산하는 컴포넌트를 만드세요. 숫자를
+        추가할 때만 최댓값이 재계산되어야 합니다.
+      </p>
+      <Ex7></Ex7>
+
       <br />
     </div>
   );
